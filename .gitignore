@@ -1,0 +1,31 @@
+# User data: never commit books, generated Markdown or local indexes.
+/inbox/*
+!/inbox/.gitkeep
+/original/*
+!/original/.gitkeep
+/output/*
+!/output/.gitkeep
+/index/*
+!/index/.gitkeep
+/logs/*
+!/logs/.gitkeep
+/.tmp/*
+!/.tmp/.gitkeep
+
+# Local/runtime files
+__pycache__/
+*.py[cod]
+.DS_Store
+*.log
+*.db
+*.db-shm
+*.db-wal
+.venv/
+venv/
+env/
+.env
+
+# Machine-specific launch-agent files; commit only *.example templates.
+com.knowledge-ingest.watcher.plist
+com.wanwei.ollama.plist
+com.wanwei.qa.plist
