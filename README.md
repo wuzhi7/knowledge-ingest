@@ -13,7 +13,8 @@ brew install ocrmypdf tesseract-lang
 ## 使用
 
 ```bash
-cd /Users/dabin-mini/knowledge_ingest
+# 进入你克隆后的项目目录（默认目录名为 knowledge-ingest）
+cd knowledge-ingest
 python3 ingest.py
 ```
 
@@ -32,8 +33,8 @@ python3 ingest.py --once
 ## 从 GitHub 克隆后初始化
 
 ```bash
-git clone <你的仓库地址>
-cd knowledge_ingest
+git clone https://github.com/wuzhi7/knowledge-ingest.git
+cd knowledge-ingest
 mkdir -p inbox original output index logs .tmp
 ```
 
